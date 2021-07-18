@@ -1,8 +1,8 @@
+//Comparison of two strings
 #include <iostream>
 #include <string.h>
 #include <algorithm>
 #include <vector>
-
 
 using namespace std;
 
@@ -10,9 +10,7 @@ const char uniqChar = '*';
 const string ok = "OK";
 const string ko = "KO";
 
-
 bool matchString(const string &strFirst, const string &strSecond);
-
 
 bool matchSimpleString( string str1, string str2);
 
@@ -25,8 +23,6 @@ bool getShift(const string &str, const char &value,  const int &indexValue,
               int diff, int oddUniq, int &shift);
 
 int getDifference(const string &str1, const string &str2);
-
-
 
 int main(int argc, char *argv[])
 {
