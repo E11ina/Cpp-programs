@@ -1,3 +1,4 @@
+//Converter
 #include <iostream>
 #include <string>
 #include <stdlib.h>
@@ -86,5 +87,3 @@ string itoBase(string nb, string baseSrc, string baseDst) {
 
     return itoBase(numTen, baseDst);
 }
-
-
